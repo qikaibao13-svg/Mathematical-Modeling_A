@@ -1,0 +1,4 @@
+method,RUL_point,RUL_low,RUL_high,source
+task1_baseline_conservative,1000.4869451516633,979.4409209245973,1125.0,Task 1 inverse bootstrap plus template band
+task3_inverse_bootstrap_plus_residual_rmse,1046.567538340385,1027.1178466153785,1065.904637162156,Task 1 inverse CI shifted by hi_linear_shrink residual and LOOCV RMSE
+task3_conservative_dual_path_plus_residual_rmse,1046.567538340385,1017.1178466153785,1179.4842606866625,Task 1 conservative interval shifted by residual and LOOCV RMSE

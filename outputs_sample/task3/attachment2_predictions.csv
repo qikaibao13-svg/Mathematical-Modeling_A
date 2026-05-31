@@ -1,0 +1,2 @@
+observed_day,baseline_RUL_days,baseline_stage,baseline_HI,equivalent_life_day,Delta_RUL_pred,RUL_final,transfer_corrected_stage,equivalent_life_day_final,selected_variant
+1800.0,1000.4869451516633,退化期,0.6000849329368468,2499.5130548483367,45.44121222859811,1045.9281573802614,退化期,2454.0718426197386,hi_linear_shrink

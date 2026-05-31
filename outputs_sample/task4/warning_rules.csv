@@ -1,0 +1,10 @@
+﻿rule_id,level,warning_name,color,trigger_condition,threshold_source,engineering_action
+R0,0,正常,蓝色,未触发 R1-R3 规则,PHM control-limit logic: no stage/RUL threshold crossing,维持常规遥测监测和周期性趋势复核。
+R1_stage,1,关注,绿色,transfer_corrected_stage 为退化期,Task 3 stage label,提高趋势复核频率，关注电流、温度和健康指标的同步变化。
+R1_boundary,1,关注,绿色,final 等效寿命距衰退边界 <= 300 天,"30% of the RUL at the decline boundary, used as an early management window",缩短复核间隔，观察是否持续向衰退边界靠近。
+R2_boundary,2,警戒,黄色,final 等效寿命距衰退边界 <= 100 天,"10% of the RUL at the decline boundary, following threshold/control-limit warning logic",进入加密监测状态，准备姿态控制冗余策略和任务窗口调整预案。
+R2_rul,2,警戒,黄色,RUL 保守区间下界 <= 1000 天,Task 3 decline boundary corresponds to about 1000 days RUL,将飞轮纳入寿命窗口管理，限制非必要高负载暴露。
+R3_stage,3,严重,红色,transfer_corrected_stage 为衰退期，或 final 等效寿命越过衰退边界,Task 3 stage boundary and PHM failure-threshold logic,启动维护、替换或冗余执行机构接管预案。
+R3_rul,3,严重,红色,RUL 保守区间下界 <= 360 天,Minimum true RUL among decline-stage truncation samples in Task 3,限制高负载工况，启动冗余接管或维护预案。
+U1_interval,1,关注,绿色,RUL 区间宽度 / RUL 点估计 >= 0.15,Task 3 conservative interval width; used only as uncertainty attention flag,提示区间不确定性偏大，需随新增数据滚动更新。
+U2_interval,2,警戒,黄色,RUL 区间宽度 / RUL 点估计 >= 0.25,Task 3 conservative interval width; used only as uncertainty attention flag,在行动建议中采用更保守的任务窗口。

@@ -1,0 +1,16 @@
+bearing_id,condition,fault_type,tau1_sample_index,tau1_life_ratio,tau2_sample_index,tau2_life_ratio,method
+Bearing1_1,35Hz12kN,Outer race,75,0.6065573770491803,85,0.6885245901639344,three-piece linear SSE on HI_bearing
+Bearing1_2,35Hz12kN,Outer race,63,0.3875,146,0.90625,three-piece linear SSE on HI_bearing
+Bearing1_3,35Hz12kN,Outer race,98,0.6178343949044586,146,0.9235668789808916,three-piece linear SSE on HI_bearing
+Bearing1_4,35Hz12kN,Cage,83,0.6776859504132231,113,0.9256198347107438,three-piece linear SSE on HI_bearing
+Bearing1_5,35Hz12kN,Inner race and outer race,35,0.6666666666666666,44,0.8431372549019608,three-piece linear SSE on HI_bearing
+Bearing2_1,37.5Hz11kN,Inner race,410,0.8346938775510204,452,0.9204081632653062,three-piece linear SSE on HI_bearing
+Bearing2_2,37.5Hz11kN,Outer race,52,0.31875,86,0.53125,three-piece linear SSE on HI_bearing
+Bearing2_3,37.5Hz11kN,Cage,323,0.6052631578947368,399,0.7481203007518797,three-piece linear SSE on HI_bearing
+Bearing2_4,37.5Hz11kN,Outer race,21,0.4878048780487805,30,0.7073170731707317,three-piece linear SSE on HI_bearing
+Bearing2_5,37.5Hz11kN,Outer race,148,0.4349112426035503,307,0.9053254437869822,three-piece linear SSE on HI_bearing
+Bearing3_1,40Hz10kN,Outer race,2082,0.8202601497832085,2335,0.9199842333464722,three-piece linear SSE on HI_bearing
+Bearing3_2,40Hz10kN,"Inner race, ball, cage and outer race",1621,0.6492985971943888,2225,0.8913827655310621,three-piece linear SSE on HI_bearing
+Bearing3_3,40Hz10kN,Inner race,310,0.8351351351351352,342,0.9216216216216216,three-piece linear SSE on HI_bearing
+Bearing3_4,40Hz10kN,Inner race,1005,0.6631439894319683,1394,0.9200792602377807,three-piece linear SSE on HI_bearing
+Bearing3_5,40Hz10kN,Outer race,48,0.415929203539823,95,0.831858407079646,three-piece linear SSE on HI_bearing

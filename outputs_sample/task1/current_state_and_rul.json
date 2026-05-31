@@ -1,0 +1,36 @@
+{
+  "current_day_attachment2": 1800.0,
+  "current_current_raw": 1.0088,
+  "current_current_smooth": 0.9793290322580644,
+  "current_current_theoretical_smooth": 0.9807332258064517,
+  "current_temperature_raw": 42.2,
+  "current_temperature_smooth": 41.925806451612914,
+  "current_delta_I": 0.015201999999999938,
+  "current_HI2": 0.6000849329368468,
+  "tau1": 1340.0,
+  "tau2": 2500.0,
+  "HI1_at_tau1": 0.2491058459840787,
+  "HI1_at_tau2": 0.5873762677489277,
+  "t_inv": 2499.5130548483367,
+  "rul_inv": 1000.4869451516633,
+  "t_inv_ci_95": [
+    2488.5796235245066,
+    2499.559881686295,
+    2510.5590790754027
+  ],
+  "rul_inv_ci_95": [
+    989.4409209245973,
+    1000.4401183137052,
+    1011.4203764754934
+  ],
+  "t_match_180d": 2464.0,
+  "rul_match_180d": 1036.0,
+  "rul_point": 1000.4869451516633,
+  "rul_interval_95_like": [
+    979.4409209245973,
+    1125.0
+  ],
+  "stage_by_inverse": "退化期",
+  "stage_by_template": "退化期",
+  "stage_conclusion": "退化期"
+}

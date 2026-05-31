@@ -1,0 +1,16 @@
+condition,bearing_id,fault_type,file_count,source_score,recommended_role
+40Hz10kN,Bearing3_1,Outer race,2538,0.996652207821099,primary_source
+37.5Hz11kN,Bearing2_5,Outer race,339,0.9150116966938246,auxiliary_source
+35Hz12kN,Bearing1_1,Outer race,123,0.8115,auxiliary_source
+40Hz10kN,Bearing3_5,Outer race,114,0.807,auxiliary_source
+35Hz12kN,Bearing1_2,Outer race,161,0.7698426708489302,candidate
+37.5Hz11kN,Bearing2_2,Outer race,161,0.7697831785716913,candidate
+35Hz12kN,Bearing1_3,Outer race,158,0.7690000000000001,candidate
+37.5Hz11kN,Bearing2_4,Outer race,42,0.710071348246355,candidate
+37.5Hz11kN,Bearing2_3,Cage,533,0.5566721262708775,candidate
+40Hz10kN,Bearing3_4,Inner race,1515,0.5543495802084454,candidate
+37.5Hz11kN,Bearing2_1,Inner race,491,0.5494385720684002,candidate
+40Hz10kN,Bearing3_2,"Inner race, ball, cage and outer race",2496,0.5445438340844642,candidate
+40Hz10kN,Bearing3_3,Inner race,371,0.4895596522076652,candidate
+35Hz12kN,Bearing1_4,Cage,122,0.3352952947962684,candidate
+35Hz12kN,Bearing1_5,Inner race and outer race,52,0.33307024608360714,candidate

@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+.idea/
+.vscode/
+.mplconfig/
+mm_contest_mplconfig*/
+data/raw/*
+!data/raw/README.md
+outputs/
+*.zip
+*.7z
+*.rar
+*.log
